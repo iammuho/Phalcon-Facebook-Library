@@ -19,7 +19,7 @@ class FacebookLibrary extends Phalcon\Mvc\User\Component
     {
         
         $this->_facebook = $facebook;
-       
+        $this->scope = $scope;  // Scope from config
 
     }
 
